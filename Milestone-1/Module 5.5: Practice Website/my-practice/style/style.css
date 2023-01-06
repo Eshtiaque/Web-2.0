@@ -1,0 +1,273 @@
+/* header */
+body {
+    margin: 0;
+
+}
+
+.xoss {
+    background-image: url(/images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 80 px;
+
+}
+
+.head {
+    text-align: center;
+    padding: 20px 5px;
+    /* margin: 50px 50px; */
+
+}
+
+.banner {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    padding: 10px 0;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.lorem {
+    color: aliceblue;
+    padding: 0px 90px 0px 90px;
+    text-align: center;
+    margin-bottom: 90px;
+
+}
+
+.button {
+    /* button : 50px; */
+    margin-top: 150px;
+    margin-bottom: 5px;
+    background-color: rgb(250, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 40px 80px;
+    font-size: 20px;
+}
+
+/* Donate today */
+main {
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.donate {
+    text-align: center;
+    text-shadow: 90px;
+    margin-top: 110px;
+}
+
+.lorem-man {
+    size: 400;
+    text-align: center;
+    margin: 0 90px 30px 90px;
+}
+
+.taka {
+
+    /* list-style: none;
+    gap: 100px;
+    box-shadow: 200px;
+   flex-basis: auto;
+    background-color: rgb(231, 12, 12); */
+    /* display: flex;
+    flex: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap; */
+    /* ------------------ */
+    /* background-color: #f50808;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    display: flex;
+    gap: 100px;
+*/
+}
+
+.middle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.one {
+    text-align: center;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: rgb(228, 230, 230);
+    font-weight: 800;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    border: none;
+    /* margin-right: 20px; */
+    /* justify-content: space-between; */
+    /* padding: 0px 0 80px 0; */
+    /* row-gap: 550px; */
+    /* font-size: 180px; */
+}
+
+.one2 {
+    text-align: center;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: rgb(228, 230, 230);
+    font-weight: 800;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+
+    /* ------ */
+    border-color: rgb(250, 0, 0);
+    border: 1;
+    border-width: 1px;
+    color: rgb(250, 0, 0);
+}
+
+.prio {
+    text-align: center;
+    /* size: 400px; */
+    font-size: 10px;
+    /* text-decoration: underline; */
+}
+
+hr {
+    color: antiquewhite;
+}
+
+.button2 {
+    background-color: rgb(250, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 10px 80px;
+    font-size: 10px;
+}
+
+.kgf {
+    display: flex;
+    gap: 20px;
+    /* box-shadow: 30px; */
+    /* color: blue; */
+    /* background-color: aquamarine; */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    /* weight: 50px; */
+}
+
+.A {
+    height: 300px;
+    /* width: 600px; */
+    margin: 10px;
+    padding: 40px;
+    padding-bottom: 5px;
+    text-align: left;
+    /* height: 170px;
+    width: 280px; */
+    background-color: aqua;
+
+}
+
+.B {
+    height: 300px;
+    margin: 10px;
+    padding: 40px;
+    padding-bottom: 5px;
+    background-color: aquamarine;
+    text-align: left;
+}
+
+.C {
+    height: 300px;
+    margin: 10px;
+    padding: 40px;
+    padding-bottom: 5px;
+    background-color: blanchedalmond;
+    text-align: left;
+}
+
+/* their lives depend on your donation */
+.food {
+    display: flex;
+    gap: 100px;
+    margin: 90px;
+    margin-left: 160px;
+}
+
+.how {
+    text-align: left;
+    /* padding: 80px;
+    width:4000px; */
+    /* text-align: center; */
+    text-shadow: 90px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.dot {
+    background-color: rgb(250, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 20px 80px;
+    font-size: 20px;
+}
+
+.my {}
+
+.m {
+    font-size: 30px;
+}
+
+.p {
+    text-align: center;
+    margin: 0 100px 50px 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+input {
+    border: 5px;
+    background-color: bisque;
+    padding: 10px 10px;
+    color: black;
+}
+
+.bang {
+    background-color: rgb(250, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 8px 50px;
+    font-size: 15px;
+}
+
+.last {
+    background-color: rgb(252, 233, 214);
+    padding: 20px 20px;
+    margin: 0 500px;
+}
+
+footer {
+    background-color: rgb(8, 5, 15);
+    margin-bottom: 0 0 0 0;
+    padding: 5px 5px;
+}
+
+.humble {
+    text-align: center;
+    color: red;
+    padding: 40px 0 0 0;
+
+}
+
+.pic {
+    text-align: center;
+    color: red;
+    padding: 0 0 50px 0;
+
+}
