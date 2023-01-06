@@ -1,0 +1,7 @@
+li{
+    color: rgb(245, 7, 47) ;
+}
+ul li{
+    color: #000;
+    display: inline;
+}

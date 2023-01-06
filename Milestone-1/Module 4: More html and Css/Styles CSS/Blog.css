@@ -1,0 +1,46 @@
+header{
+    height : 200px;
+    /* background-image: url(../images/air-jordan-6-vi-retro-dmp-ct4954-007-lateral.jpg) */
+    /* background-image: url(../images/20201124_150220.jpg) */
+    background-image: url(../images/4_100514112756.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    text-align:left;
+    padding-right: 2%; 
+    background-color: gray;
+    background-blend-mode:multiply;
+    color: rgb(238, 238, 238);
+}
+.blog{
+   background-color: peru; 
+   box-shadow:10px 10px black ;
+   margin-bottom: 100px;
+}
+h3{
+    color:rgb(23, 26, 13);
+    text-align: center;
+    text-decoration: underline wavy greenyellow;
+}
+p{
+    color:rgb(57, 17, 204);
+}
+ /* li{
+    color: brown;
+
+}  */
+.page-title{
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+span{
+    border: 1px solid rgb(11, 12, 8);
+    height: 200px;
+    width: 100px;
+    margin-top: 50px;
+     /* display:block  */
+     /* display:none; */
+}
