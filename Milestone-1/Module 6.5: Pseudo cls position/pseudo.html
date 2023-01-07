@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        color: aqua;
+        background-color: rgb(2, 2, 2);
+        width: max-content;
+    }
+   h1:hover{
+    color:rgb(2, 2, 2) ;
+    background-color: yellow;
+    width: max-content;
+    /* margin: 50px;
+    padding: 50px; */
+    /* padding-right: 10px; */
+    /* font-size: 50px; */
+    font-weight: 700;
+   }
+   .middle:focus{
+color: blue;
+font-weight: 700;
+   }
+   a:visited{
+    color: rgb(183, 247, 5);
+
+   }
+   li:first-child{
+color: aqua;
+background-color: rgb(2, 2, 2);
+        width: max-content;
+   }
+   li:last-child{
+color: aqua;
+background-color: rgb(2, 2, 2);
+        width: max-content;
+   }
+   li:nth-child(2n){
+color: aqua;
+background-color:crimson;
+        width: max-content;
+   }
+   li:nth-child(2n+1){
+color: aqua;
+background-color:rgb(17, 17, 17);
+        width: max-content;
+   }
+   /* pseudo element */
+   h3::before{
+    content: 'hello ';
+   }
+   h3::after{
+    content: 'gelo ';
+   }
+ .p::after{
+    content: 'gelo ';
+    color: rgb(230, 16, 16);
+   }
+</style>
+<body>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input  class="middle"type="text">
+    <input type="text">
+    <br>
+    <br>
+    <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_span">w3schools</a>
+    <a href="https://horizonsetfs.com/ETF/hgy/">never visited</a>
+    <a href="https://www.youtube.com/watch?v=jzF5oWL7ytI">youtube</a>
+    <br>
+    <h3>middle size header -1</h3>
+    <h3 class="p">middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3>middle size header -6</h3>
+    <ul>
+        <li>kaia</li>
+        <li>ami</li>
+        <li>tumi</li>
+        <li>seni</li>
+        <li>teni</li>
+        <li>menia</li>
+    </ul>
+</body>
+</html>
