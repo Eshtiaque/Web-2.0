@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --primary-color:rgb(88, 231, 5);
+        --secondary-color:lightgray;
+        --single-border:2px solid blue;
+    }
+    h1{
+        /* color: slateblue;
+        color: steelblue; */
+        color: var(--primary-color);
+    }
+    #heading-3{
+        border: 2px solid var(--primary-color);
+    }
+    p{
+        border-bottom: var(--single-border);
+    }
+    .box{
+        background-color: var(--primary-color);
+        width: calc(100%-500px);
+        height: 100px;
+    }
+</style>
+<body>
+    <h1 class="heading" id="heading-1">My strong Heading-1</h1>
+    <h1 class="heading" id="heading-2">My strong Heading-2</h1>
+    <h1 class="heading" id="heading-3">My strong Heading-3</h1>
+    <h1 class="heading" id="heading-4">My strong Heading-4</h1>
+
+    <p >my simple talk</p>
+
+    <div class="box">my bossing box </div>
+</body>
+</html>
