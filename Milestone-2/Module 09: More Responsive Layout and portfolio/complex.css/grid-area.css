@@ -1,0 +1,69 @@
+.header{
+    grid-area: header;
+    }
+    .nav{
+        grid-area: nav;
+    }
+    .main{
+        grid-area: main;
+    }
+    .aside{
+        grid-area: aside;
+    }
+    .adv{
+        grid-area: adv;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    header, .nav, .main, .aside, .adv, footer{
+    background-color: aqua;
+    
+    }
+    .nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    li,a{
+        list-style: none;
+        text-decoration: none;
+    }
+    /* grid layouts style */
+    .grid-container{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-areas: 
+        " header header header header"
+        "nav main main aside"
+        "nav main main adv"
+        "footer footer footer footer";
+    }
+    @media screen and (max-width:576px){
+        .grid-container{
+            list-style: none;
+            text-decoration: none;
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            " header "
+            "nav"
+            " main"
+            "aside"
+            "adv"
+            "footer";
+        }
+    }
+    @media screen and (min-width:577px) and (max-width:992px){
+        .grid-container{
+            list-style: none;
+            text-decoration: none;
+            grid-template-columns: 1fr 3fr;
+            grid-template-areas: 
+            " header header header"
+            "nav nav nav"
+            "aside main main"
+            "aside main main"
+            /* "nav main main adv" */
+            "adv footer footer";
+        }
+    }
