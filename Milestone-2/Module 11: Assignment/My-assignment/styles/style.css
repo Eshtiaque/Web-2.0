@@ -50,6 +50,7 @@ border: none;
 border-radius: 8px;
 margin-bottom: 35px;
 color: white;
+font-size: 15px;
  }
  .banner img{
     width: 100%;
@@ -388,7 +389,7 @@ padding-top: 40px; */
     background: #ebd1d1;
 box-shadow: 0px 40px 70px rgba(0, 0, 0, 0.06);
 border-radius: 8px;
-padding: 10px;
+/* padding: 10px; */
 }
 @media only screen and (max-width:576px){
 .us{
