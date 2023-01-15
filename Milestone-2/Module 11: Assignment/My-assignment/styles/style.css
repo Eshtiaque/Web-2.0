@@ -352,4 +352,13 @@ padding-top: 40px; */
     #last{
         font-size: 10px;
     }
+    body{
+        margin: 0 auto;
+    }
+    .facts p{
+        font-size: 15px;
+    }
+    .lorem-second{
+        font-size: 15px;
+    }
 }
