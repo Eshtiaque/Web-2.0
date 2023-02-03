@@ -1,1 +1,0 @@
-var sunglassPrice = 120;
