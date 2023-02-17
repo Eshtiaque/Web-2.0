@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geometry-genius</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="container" >
+    <!-- header section -->
+    <header class="bg-primary-subtle d-flex align-items-center p-2 justify-content-between">
+        <nav>
+            <h2>Interactive</h2>
+            <p>Geometry Genius</p>
+        </nav>
+        <nav>
+            <button class="btn btn-primary ps-4 pe-4 fw-bold">Blog</button>
+        </nav>
+    </header>
+    <main >
+        <!-- <section class="gap-3 m-3 d-grid grid-col-span-4"> -->
+            <section class="gap-3 m-3 row row-cols-1 row-cols-lg-4 row-cols-md-2 ">
+            <div class="card align-items-center" style="width: 18rem;">
+                <img src="./images/triangle.png" class="card-img-top mt-3  w-75 h-75" alt="...">
+                <div class="card-body align-items-center text-center">
+                    <h5 class="card-title">Triangle</h5>
+                    <p class="card-text">Area (A) =0.5 x b x h</p>
+                    <div class="d-flex g-">
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="b"></textarea>
+                        <!-- <p class="pt-0">cm</p> -->
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="h"></textarea>
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3">Calculate</a>
+                </div>
+            </div>
+            <!-- ---------------------- -->
+            <div class="card align-items-center" style="width: 18rem;">
+                <img src="./images/rectangle.png" class="card-img-top mt-3  w-75 h-75" alt="...">
+                <div class="card-body align-items-center text-center">
+                    <h5 class="card-title">Rectangle</h5>
+                    <p class="card-text">Area (A) = w x I</p>
+                    <div class="d-flex g-">
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="w"></textarea>
+                        <!-- <p class="pt-0">cm</p> -->
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="l"></textarea>
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3">Calculate</a>
+                </div>
+            </div>
+            <!-- -------------------- -->
+            <div class="card align-items-center" style="width: 18rem;">
+                <img src="./images/parallelogram.png" class="card-img-top mt-3  w-75 h-75" alt="...">
+                <div class="card-body align-items-center text-center">
+                    <h5 class="card-title">Parallelogram</h5>
+                    <p class="card-text">Area (A) = b x h</p>
+                    <div class="d-flex g-">
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="b"></textarea>
+                        <!-- <p class="pt-0">cm</p> -->
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="h"></textarea>
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3">Calculate</a>
+                </div>
+            </div>
+            <!-- ----------------------- -->
+            <div class="card p-3 align-items-center text-center h-20rem d-none d-md-block d-lg-block" style="width: 18rem; height: 23rem;">
+                <h3>Area Calculation</h3>
+            
+            </div>
+
+            <!-- ---------------------- --> 
+            <div class="card align-items-center" style="width: 18rem;">
+                <img src="./images/rhombus.png" class="card-img-top mt-3  w-75 h-75" alt="...">
+                <div class="card-body align-items-center text-center">
+                    <h5 class="card-title">Rhombus</h5>
+                    <p class="card-text">Area (A) =0.5 x d <sub>1</sub> x d <sub>2</sub></p>
+                    <div class="d-flex g-">
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder=" d1 "></textarea>
+                        <!-- <p class="pt-0">cm</p> -->
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="d2"></textarea>
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3">Calculate</a>
+                </div>
+            </div>
+            <!-- -------------------------- -->
+            <div class="card align-items-center " style="width: 18rem;">
+                <img src="./images/pentagon.png" class="card-img-top mt-3  w-75 h-75" alt="...">
+                <div class="card-body align-items-center text-center">
+                    <h5 class="card-title">Pentagon</h5>
+                    <p class="card-text">Area (A) = 0.5 x p x b </p>
+                    <div class="d-flex g-">
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="p"></textarea>
+                        <!-- <p class="pt-0">cm</p> -->
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="b"></textarea>
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3">Calculate</a>
+                </div>
+            </div>
+            <div class="card align-items-center" style="width: 18rem;">
+                <img src="./images/ellipse.png" class="card-img-top mt-3  w-75 h-75" alt="...">
+                <div class="card-body align-items-center text-center">
+                    <h5 class="card-title">Ellipse</h5>
+                    <p class="card-text">Area (A) = 3.1416 x ab</p>
+                    <div class="d-flex g-">
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="a"></textarea>
+                        <!-- <p class="pt-0">cm</p> -->
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                        <textarea class="border-0 bg-dark-subtle" name="" id="" cols="7" rows="1"
+                            placeholder="b"></textarea>
+                        <span class="pt-1 ms-1 me-1">cm</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3">Calculate</a>
+                </div>
+            </div>
+            <div class="d-block d-md-none d-lg-none card p-3 align-items-center h-20rem" style="width: 18rem; height: 20rem;">
+               
+                <h3>Area Calculation</h3>
+            
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
