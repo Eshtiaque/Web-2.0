@@ -98,13 +98,13 @@ isToggled = !isToggled;
             </div>
             <div class="card-body d-flex justify-content-around text-center mb-2">
               <div class="bg-warning p-2 rounded-2">
-              <p>${card.pricing[0].price?card.pricing[0].price:'No Data'} <br> <span>${card.pricing[0].plan?card.pricing[0].plan:'No Plan'}</span></p>
+              <p>${card.pricing[0].price?card.pricing[0].price:'Free of Cost'} <br> <span>${card.pricing[0].plan?card.pricing[0].plan:'No Plan'}</span></p>
               </div >
               <div class="bg-info p-2 rounded-2">
-              <p>${card.pricing[1].price?card.pricing[1].price:'No Data'} <br> <span>${card.pricing[1].plan?card.pricing[1].plan:'No Plan'}</span></p>
+              <p>${card.pricing[1].price?card.pricing[1].price:'Free of Cost'} <br> <span>${card.pricing[1].plan?card.pricing[1].plan:'No Plan'}</span></p>
               </div>
               <div class="bg-danger p-2 rounded-2">
-              <p>${card.pricing[2].price?card.pricing[2].price:'No Data'} <br> <span>${card.pricing[2].plan?card.pricing[2].plan:'No Plan'}</span></p>
+              <p>${card.pricing[2].price?card.pricing[2].price:'Free of Cost'} <br> <span>${card.pricing[2].plan?card.pricing[2].plan:'No Plan'}</span></p>
               </div>
               
             
