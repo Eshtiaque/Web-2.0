@@ -1,0 +1,61 @@
+jown th
+jown th
+
+i) &
+<3
+
+ii)
+
+2) What is the language of
+
+3) Write down th
+Use a transitio
+
+e 5-tuple
+n table tos
+
+slowing DFA
+
+the ic
+
+7
+\
+
+es qo
+
+how the transitions
+
+\ )
+Pe a —
+ee ( »)
+AY)
+
+definition of the following DFA
+06
+
+ 
+
+4) Design 4 DFA that ac
+
+consecu
+Use the last
+120, 121 an
+
+two digits of your
+d 122 will be the names of the t
+
+cepts the set ©
+tive 111’s (not necessarily al
+
+TD to name the st
+
+f all strings with three
+t the end) ovet the alphabet (0, \}
+
+ates. For example,
+hree states of ID 12.
+
+ 
+
+(08)
+
