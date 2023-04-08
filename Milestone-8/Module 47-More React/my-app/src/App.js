@@ -4,11 +4,19 @@ import './App.css';
 // const number = 333;
 
 function App() {
+const nayoks=['Eshtiaque Ahmed','Shakrukh',
+'Salman','Allu Arjun','Iron man']
   return (
     <div className="App">
-    <Person name="Eshtiaque Ahmed"></Person>
-    <Person name="Eshtiaque Ahmed"></Person>
-    <Friend Name="lokko Lokko" job="Don"></Friend>
+      {
+      // nayoks.map(nayok=><li>Name:{nayok}</li>)
+      nayoks.map(nayok=><Person name={nayok}></Person>)
+      }
+
+
+    {/* <Person name={nayoks[0]}></Person>
+    <Person name={nayoks[1]}></Person> */}
+    <Friend Name="Lokko Lokko" job="Don"></Friend>
 
     </div>
   );
@@ -18,7 +26,7 @@ function Person(props){
   return (
     <div className='person'>
       <h1>{props.name}</h1>
-      <p>Hacker</p>
+      <p></p>
       </div>
   )
 }
