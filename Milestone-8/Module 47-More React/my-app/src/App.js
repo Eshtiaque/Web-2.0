@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
-const number = 333;
+// const number = 333;
 
 function App() {
   return (
