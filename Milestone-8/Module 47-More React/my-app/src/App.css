@@ -39,3 +39,11 @@
 .container{
   color:aqua;
 }
+
+.person{
+  background-color: yellow;
+  color: black;
+  border:3px solid ;
+  padding: auto;
+  margin: 20px;
+}

@@ -6,31 +6,28 @@ const number = 333;
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Sajid
-        </h1>
-        <div className="container">
-          <h3>hello dude</h3>
-        </div>
-        <div className="music">
-          <p>Name:{number}</p>
-        </div>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Person name="Eshtiaque Ahmed"></Person>
+    <Person name="Eshtiaque Ahmed"></Person>
+    <Friend Name="lokko Lokko" job="Don"></Friend>
+
     </div>
   );
 }
-
+function Person(props){
+  console.log(props);
+  return (
+    <div className='person'>
+      <h1>{props.name}</h1>
+      <p>Hacker</p>
+      </div>
+  )
+}
+function Friend(props){
+  return (
+    <div className='person'>
+    <h1>{props.Name}</h1>
+    <p>{props.job}</p>
+          </div>
+  )
+}
 export default App;
