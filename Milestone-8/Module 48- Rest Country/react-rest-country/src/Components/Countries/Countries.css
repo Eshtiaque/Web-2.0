@@ -1,0 +1,7 @@
+.loko{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.loko img{
+    width: 150px;
+}
