@@ -8,41 +8,41 @@ function App() {
       <h1>Happy Coding</h1>
       <LoadPost></LoadPost>
 
-      <District name="Noakhali"special="Rocks" ></District>
-      <District name="Jessore"special="Good"></District>
-      <District name="Dhaka"special="Nice"></District>
+      <District name="Australia" special="Rocks" ></District>
+      <District name="Bangladesh" special="Good"></District>
+      <District name="Dhaka" special="Nice"></District>
 
     </div>
   );
 }
-function LoadPost(){
-  const [posts,setPosts]= useState ([]);
-  useEffect (()=>{
+function LoadPost() {
+  const [posts, setPosts] = useState([]);
+  useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/posts')
-    .then(res=>res.json())
-    .then(data=>setPosts(data))
-  },[])
+      .then(res => res.json())
+      .then(data => setPosts(data))
+  }, [])
 
-  return(
+  return (
     <div>
       <h1>Post: {posts.length}</h1>
-     {
-       posts.map(post=> <Post 
-        title={post.title}
-        Body={post.body}
+      {
+        posts.map(post => <Post
+          title={post.title}
+          Body={post.body}
         ></Post>)
-     }
+      }
     </div>
   )
 }
-function Post(props){
-  return(
+function Post(props) {
+  return (
     <div style={{
-      background:'lightsalmon',
+      background: 'lightsalmon',
       margin: '10px',
-      padding:'3px',
-      borderRadius:'10px',
-      border:'2px solid Black'
+      padding: '3px',
+      borderRadius: '10px',
+      border: '2px solid Black'
     }}>
       <h2>Title: {props.title}</h2>
       <p>Body:{props.body}</p>
@@ -50,21 +50,21 @@ function Post(props){
   )
 }
 
-const DistrictStyle={
-  background:'pink',
+const DistrictStyle = {
+  background: 'pink',
   margin: '10px',
-  padding:'3px',
-  borderRadius:'10px',
-  border:'2px solid Black'
+  padding: '3px',
+  borderRadius: '10px',
+  border: '2px solid Black'
 }
-function District(props){
-  const [power,setPower]=useState(1);
+function District(props) {
+  const [power, setPower] = useState(1);
 
-  const boostPower=()=>{
-    const newPower = power*2;
+  const boostPower = () => {
+    const newPower = power * 2;
     setPower(newPower);
   }
-  return(
+  return (
     <div style={DistrictStyle}>
       <h2>Name : {props.name} </h2>
       <h3>Especially : {props.special}</h3>
