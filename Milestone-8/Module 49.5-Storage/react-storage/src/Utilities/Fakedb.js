@@ -38,29 +38,7 @@ export { addToDb ,
     deleteShoppingCart //need call for delete 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 // const addToDb=id=>{
 //     const quantity =localStorage.getItem(id)
 //     if(quantity){

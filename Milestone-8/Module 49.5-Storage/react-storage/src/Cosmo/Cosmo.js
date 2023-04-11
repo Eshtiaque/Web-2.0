@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Cosmo.css";
 import { addToDb, removeFromDb } from '../Utilities/Fakedb';
+import { getTotal } from '../Utilities/Utilities';
 const Cosmo = (props) => {
     const {name,price,id}=props.co;
     const addToCart=(id)=>{
@@ -13,6 +14,7 @@ const Cosmo = (props) => {
     const removeFromCart =id=>{
         removeFromDb(id);
     }
+
     return (
         <div className='product'>
             {/* <h2>Name:{props.co.name}</h2>
