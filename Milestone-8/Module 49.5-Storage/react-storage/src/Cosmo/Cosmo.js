@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Cosmo.css";
 import { addToDb, removeFromDb } from '../Utilities/Fakedb';
-import { getTotal } from '../Utilities/Utilities';
+// import { getTotal } from '../Utilities/Utilities';
 const Cosmo = (props) => {
     const {name,price,id}=props.co;
     const addToCart=(id)=>{
