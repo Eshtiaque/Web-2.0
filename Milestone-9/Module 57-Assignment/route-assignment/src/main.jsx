@@ -11,6 +11,7 @@ import Home from './Components/MyHome/Home';
 import MainPage from './Components/MainPAge/MainPage';
 import Statistic from './Components/Statistic/Statistic';
 import Blogs from './Components/Blogs/Blogs';
+import Notfound from './Components/Notfound/Notfound';
 const router = createBrowserRouter([
   {
    path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "Blogs",
         element: <Blogs></Blogs>
+      },
+      {
+        path: "*",
+        element: <Notfound></Notfound>
       }
     ]
   },

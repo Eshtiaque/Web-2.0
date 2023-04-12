@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
-        <nav className='grid grid-cols-3'>
+        <nav className='flex justify-around'>
         <div>
             <h1 className='text-2xl font-extrabold '>Found Career</h1>
         </div>
