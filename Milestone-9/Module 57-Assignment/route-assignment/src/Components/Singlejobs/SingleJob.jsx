@@ -1,11 +1,16 @@
 import React from 'react';
+import { useState, useEffect } from "react";
+
+
 
 const SingleJob = ({job}) => {
     const {picture, name, company,salary, button1, button2, address} = job;
+
+  
     return (
         <section>
-            <div className='p-3 border-2 gap-4 text-left'>
-                <img className='h-15 w-25' src={picture} alt="" />
+            <div className='p-3 border-2  text-left'>
+                <img className='h-10 w-25' src={picture} alt="" />
                 <h4>{name}</h4>
                 <h3>{company}</h3>
                 <div>
@@ -14,6 +19,7 @@ const SingleJob = ({job}) => {
                 </div>
                 <p className='pb-1'><small>{address}  <br></br>${salary}</small></p>
                 <button className='bg-pink-500 font-bold text-xs p-2 rounded-md text-white'>View Details</button>
+               
             </div>
         </section>
     );
