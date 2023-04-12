@@ -10,9 +10,9 @@ const Nav = () => {
 
         <div className='flex gap-6 ms-6'>
             <p><Link to="">Home</Link></p>
-            <p><Link to="">My Statistic</Link></p>
+            <p><Link to="Statistic">My Statistic</Link></p>
             <p><Link to="">Applied-Jobs</Link></p>
-            <p><Link to="">Blogs</Link></p>
+            <p><Link to="Blogs">Blogs</Link></p>
         </div>
 
         <div>

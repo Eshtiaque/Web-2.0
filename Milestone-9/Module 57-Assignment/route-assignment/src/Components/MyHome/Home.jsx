@@ -10,7 +10,7 @@ import Feature from '../Feature/Feature';
 const Home = () => {
     return (
         <div>
-            <Nav></Nav>
+           
             <Header></Header>
             <Category></Category>
             <Feature></Feature>
