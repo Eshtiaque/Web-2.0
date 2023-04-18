@@ -1,0 +1,43 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.cart-container{
+    background-color: #1C2B35;
+    color: orange;
+    text-align: left;
+    padding: 15px;
+    /* font-weight: 900; */
+    border: 2px solid white;
+    position: sticky;
+    top: 0;
+
+}
+.summary{
+    text-align: center;
+}
+/* .cart-container:hover{
+    background-color: orange;
+    color: #1C2B35;
+} */
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:25px;
+    margin:50px ;
+}
+.cart-container button{
+    width: 100%;
+    color: orange;
+    background-color:  #1C2B35;
+    border:2px solid orange;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    /* position: absolute; */
+}
+.cart-container button:hover{
+    color:#1C2B35;
+    background-color: orange;
+}
