@@ -36,9 +36,6 @@ const Shop = () => {
         setCart(savedCart);
     }, [products]);
 
-
-
-
     const eventHandler = (product) => {
         let newCart = [];
         // const newCart =[...cart,product];
