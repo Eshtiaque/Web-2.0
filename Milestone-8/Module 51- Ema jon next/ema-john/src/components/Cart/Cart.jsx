@@ -25,7 +25,7 @@ const Cart = ({ cart }) => {
             <p>Tax : ${tax.toFixed(2)}</p>
             <h3>Grand Total : ${grandTotal.toFixed(2)}</h3>
 
-            <button onClick={()=>deleteShoppingCart(id)}>Clear Cart</button>
+            <button onClick={()=>removeFromDb(id)}>Clear Cart</button>
                 <button>Proceed Checkout</button> 
         </div>
     );
