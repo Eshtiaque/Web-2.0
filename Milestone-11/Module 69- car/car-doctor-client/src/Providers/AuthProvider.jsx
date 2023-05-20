@@ -22,6 +22,7 @@ const signIn =(email,password)=>{
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, currentUser => {
+            setUser(currentUser);
             setUser('currentUser', currentUser);
             setLoading(false);
         });

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     const { signIn } = useContext(AuthContext);
     const handleLogin =event=>{
-        event.preventdefault();
+        event.preventDefault();
         const form =event.target;
         const email = form.email.value;
         const password=form.password.value;

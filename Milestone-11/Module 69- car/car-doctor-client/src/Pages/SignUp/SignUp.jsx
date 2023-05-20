@@ -7,7 +7,7 @@ const SignUp = () => {
 
     const { createUser } =useContext(AuthContext);
     const handleSignUP =event=>{
-        event.preventdefault();
+        event.preventDefault();
         const form =event.target;
         const name = form.name.value;
         const email = form.email.value;
@@ -18,7 +18,7 @@ const SignUp = () => {
             const user =result.user;
             console.log(user);
         })
-        .then(error=>console.log(error))
+        .catch(error=>console.log(error));
     }
     return (
         <div className="hero min-h-screen bg-base-200">
